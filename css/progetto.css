@@ -1,0 +1,67 @@
+footer {
+    /*inserisco un opacity per non trascurare troppo il testo dietro*/
+    /*opacity: 0.5;*/
+    background-color:#a5241b;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+  
+footer a:hover {
+    color: #ddd;
+}
+
+body, html{
+    margin:0;
+}
+
+main{
+    margin:2rem;
+}
+
+h1{
+    color:#a5241b;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #be2d28;
+    font-family: Arial, sans-serif;
+    /*faccio in modo che il navbar occupi tutta la riga, per evitare che si sovrapponga con altri contenuti*/
+    width: 100%;
+    margin-bottom: 3rem;
+}
+  
+.navbar a {
+    float: left;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: rgb(114, 32, 21);
+    transition: 0.5s;
+    /*aggiungo anche in questo caso border color in modo da far colorare anche il bordo quando viene selezionato*/
+    border-color:  rgb(114, 32, 21);
+    color:white;
+}
+
+.attiva{
+    background-color: #cf6e67;
+}
+
+h2{
+    color:#be2d28;
+    font-size: 1rem;
+}
