@@ -20,10 +20,13 @@
     <body>
     <nav>
         <div class="navbar">
-            <a class="attiva" href="home.php">Home</a>
+            <a id="attiva" href="home.php">Home</a>
+            <a href="registrazione.php">Registra</a>
+            <a href="login.php">Login</a>
             <a href="menu.php">Men&ugrave;</a>
             <a href="ratings.php">Recensioni</a>
             <a href="contacts.php">Contatti</a>
+            <a href="../including/logout.php">Logout</a>
         </div>
     </nav>
         <main>

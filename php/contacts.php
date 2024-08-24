@@ -21,9 +21,12 @@
     <nav>
         <div class="navbar">
             <a href="home.php">Home</a>
+            <a href="registrazione.php">Registra</a>
+            <a href="login.php">Login</a>
             <a href="menu.php">Men&ugrave;</a>
             <a href="ratings.php">Recensioni</a>
-            <a class="attiva" href="contacts.php">Contatti</a>
+            <a id="attiva" href="contacts.php">Contatti</a>
+            <a href="../including/logout.php">Logout</a>
         </div>
     </nav>
         <main>
